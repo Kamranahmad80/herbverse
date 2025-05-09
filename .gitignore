@@ -1,0 +1,72 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+logs/
+*.log
+
+# macos
+.DS_Store
+*.pem
+
+# windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# linux
+*~
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains/WebStorm
+.idea/
+*.iml
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+ui-debug.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# local env files
+.env*.local
+
+# build & testing
+coverage/
+build/
+web-report/
+.vercel
+
+# typescript
+*.tsbuildinfo
